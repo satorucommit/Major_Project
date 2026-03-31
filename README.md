@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Major_Project
 
 
