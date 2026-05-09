@@ -11,17 +11,17 @@ The project uses hand landmark detection and machine learning models to recogniz
 
 ### Objectives
 
-- **Detect hand landmarks using MediaPipe to extract 21 key points from live webcam input.
+- Detect hand landmarks using MediaPipe to extract 21 key points from live webcam input.
 
-2. **Develop a sign-to-text gesture recognition system using deep learning.
+- Develop a sign-to-text gesture recognition system using deep learning.
 
-3. **Create a text-to-sign animation generator to display sign language through 3D avatars.
+- Create a text-to-sign animation generator to display sign language through 3D avatars.
 
-4. **Build a searchable dictionary containing 500–1000 common sign gestures with video demonstrations.
+- Build a searchable dictionary containing 500–1000 common sign gestures with video demonstrations.
 
-5. **Design an interactive learning module with practice mode and real-time feedback.
+- Design an interactive learning module with practice mode and real-time feedback.
 
-6. **Implement user authentication and progress tracking for personalized learning.
+- Implement user authentication and progress tracking for personalized learning.
 
 
 
