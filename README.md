@@ -24,8 +24,8 @@ Design an interactive learning module with practice mode and real-time feedback.
 Implement user authentication and progress tracking for personalized learning.
 
 
--
-# Text-to-Sign Translation Model
+
+## Text-to-Sign Translation Model
 
 A complete system for converting text input into skeleton-based sign language animation videos. Optimized for low-resource hardware (4GB VRAM + 16GB RAM) with checkpoint-based training for overnight training sessions.
 
