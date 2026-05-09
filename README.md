@@ -29,7 +29,7 @@ The project uses hand landmark detection and machine learning models to recogniz
 
 A complete system for converting text input into skeleton-based sign language animation videos. Optimized for low-resource hardware (4GB VRAM + 16GB RAM) with checkpoint-based training for overnight training sessions.
 
-## 🎯 Features
+##  Features
 
 - **5-Stage Pipeline**: Text → Gloss → Pose → Refinement → Skeleton Video
 - **Memory Optimized**: Works on 4GB VRAM with gradient accumulation
@@ -61,7 +61,7 @@ sign_language_project/
 └── README.md               # This file
 ```
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Install Dependencies
 
@@ -98,7 +98,7 @@ python inference.py --interactive
 python inference.py --batch texts.txt outputs/
 ```
 
-## 📊 Model Architecture
+##  Model Architecture
 
 ### Stage 1: Text Encoder
 - Lightweight transformer encoder
@@ -143,7 +143,7 @@ TRAINING_CONFIG = {
 }
 ```
 
-## 📈 Training Schedule
+##  Training Schedule
 
 The system is designed for overnight training:
 
@@ -154,7 +154,7 @@ The system is designed for overnight training:
 | 4:55 AM | Graceful shutdown, final checkpoint saved |
 | Next night | Auto-resume from last checkpoint |
 
-## 📝 Data Format
+##  Data Format
 
 ### Directory Structure
 ```
@@ -201,7 +201,7 @@ data/organized_classes/
 | Storage | 10 GB | 50 GB |
 | Python | 3.8+ | 3.10+ |
 
-## 📦 Output
+##  Output
 
 The system generates:
 
@@ -224,7 +224,7 @@ result = inference.translate("Hello, how are you?")
 create_skeleton_video(result['skeleton'], "output.mp4")
 ```
 
-## 🎓 Training Tips
+##  Training Tips
 
 1. **Start Small**: Use 20 classes, 10 videos each for initial training
 2. **Monitor VRAM**: Check `torch.cuda.memory_allocated()` during training
@@ -232,7 +232,7 @@ create_skeleton_video(result['skeleton'], "output.mp4")
 4. **Early Stopping**: Patience of 15 epochs prevents overfitting
 5. **Learning Rate**: Default 3e-4 works well; reduce if unstable
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Out of Memory
 - Reduce `batch_size` to 1
