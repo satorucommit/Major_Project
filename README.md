@@ -11,7 +11,7 @@ The project uses hand landmark detection and machine learning models to recogniz
 
 ### Objectives
 
-1. **Detect hand landmarks using MediaPipe to extract 21 key points from live webcam input.
+- **Detect hand landmarks using MediaPipe to extract 21 key points from live webcam input.
 
 2. **Develop a sign-to-text gesture recognition system using deep learning.
 
