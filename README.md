@@ -22,6 +22,7 @@ Build a searchable dictionary containing 500–1000 common sign gestures with vi
 Design an interactive learning module with practice mode and real-time feedback.
 
 Implement user authentication and progress tracking for personalized learning.
+
 =======
 # Text-to-Sign Translation Model
 
