@@ -251,7 +251,7 @@ create_skeleton_video(result['skeleton'], "output.mp4")
 
 This project is for educational and research purposes.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - MediaPipe for skeleton structure
 - PyTorch for deep learning framework
